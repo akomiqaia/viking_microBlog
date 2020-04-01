@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const db = require("./connection");
+const db = require("./db_connection");
 
 // get the contents of our init.sql file
 const initPath = path.join(__dirname, "init.sql");
