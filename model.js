@@ -7,3 +7,4 @@ function getCount() {
   return counter
 }
 module.exports = {getCount, increment, posts };
+
